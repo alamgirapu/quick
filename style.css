@@ -1,0 +1,185 @@
+/* common css start*/
+body{
+font-family: sans-serif;
+}
+/* common css end*/
+/* header start*/
+header{
+
+}
+.wrapper{
+overflow: hidden;
+margin:0 auto;
+width: 90%;
+
+}
+.logo{
+margin-top: 21px;
+float: left;
+width: 15%;
+}
+.logo img{
+width: 100%%;
+}
+.menu{
+float: right;
+width: 55%;
+}
+.menu ul{
+float: right;
+}
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{
+text-decoration: none;
+padding:10px 25px;
+display: inline-block;
+color:#0f2656;
+}
+.menu ul li a:hover{
+color:blue;
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+	padding: 70px 0;
+}
+
+.wrapper2 {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.b_content {
+	text-align: center;
+}
+
+.b_h1 {
+	margin: 0 auto;
+	font-size:65px;
+	color:#0F2656;
+	line-height: 90px;
+
+}
+
+.b_span {
+	color:#008aff;
+}
+
+.b_text {
+margin: 15px 0;
+font-size:18px;
+color:#0F2656;
+padding: 20px 0;
+line-height: 30px; 	
+}
+
+.b_image {
+margin: 0 auto;
+width: 80%;
+}
+.b_image img{
+width: 100%;
+transition:.3s;
+}
+.b_image img:hover{
+transform: scale(0.8); 
+}
+/*banner end*/
+/*success start*/
+.success{
+
+}
+.s_content{
+overflow: hidden;
+}
+.s_left{
+width: 44%;
+float: left;
+text-align: right;
+padding: 0 10px 0 30px;
+}
+.s_left h2{
+margin: 0;
+font-size:50px;
+color: red;
+
+}
+.s_left p{
+margin: 0;
+font-size: 16px;
+color: #0f2656;
+line-height: 25px;
+}
+.s_right{
+width: 45%;
+float: right;
+padding: 0 30px 0 10px;
+}
+.s_right h1{
+margin: 0;
+font-size:50px;
+color: #0f2656;
+}
+/*success end*/
+/*service start*/
+.service{
+	margin:50px;
+}
+.s_wrapper{
+
+}
+.s_single{
+width: 27%;
+padding: 60px 27px; 
+float: left;
+margin-right:30px;
+}
+.s_single:last-child{
+	margin-right: 0;
+}
+.pink{
+background-color:#fdebed;
+}
+.green{
+background-color: #EBF9F4;
+}
+.yellow{
+background-color: #FFF7E8;
+}
+.s_img{}
+.s_img img{
+	width: 100%;
+}
+.s_h2{
+margin: 15px 0;
+color:#0f2656;
+font-size:20px;
+}
+.s_text{
+margin: 0;
+font-size: 18px;
+line-height: 25px;
+color:#0f2656; 
+}
+
+/*service end*/
+/*footer start*/
+footer{
+background-color: #008AFF;
+ padding: 30px 0;
+}
+.F_text{
+text-align: center
+}
+.F_text p{
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #75CEFF;
+}
+}
+/*footer end*/
